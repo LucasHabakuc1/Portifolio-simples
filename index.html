@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Extensões -->
+    <link rel="stylesheet" href="./src/estilo/rest.css">
+    <Link rel="stylesheet" href="./src/estilo/estilo.css">
+    <link rel="stylesheet" href="./src/estilo/rolagem.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Titulo -->
+    <title>Meu Postfólio</title>
+</head>
+
+<body>
+    <div class="borda-cartao"></div>
+    <main class="cartao">
+
+        <div class="minhas-informacoes">
+            <div class="borda-foto"> </div>
+                <img src="./src/imag/eu.jpg" alt="foto de perfil" />
+
+            <h1 class="nome">Lucas Habakuc</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imag/sobre.gif" alt="ícone de sobre mim" />
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imag/coracao.gif" alt="ícone de redes sociais" />
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! meu nome é Lucas Habakuc, seja bem-vindo(a)!
+                        </p>
+                        <p>Sou uma pessoa apaixonada pela área da tecnologia desde que
+                            tinha 9 anos.
+                            Quando conheci a programação descobri um mundo fantástico que
+                            poderia mudar muita coisa e me apaixonei pela forma de criar com ela.
+                            Atualmente estudo <span>HTML, CSS e JavaScript</span> e estou cursando faculdade na área de
+                            <span>ADS</span>.
+                            Gosto de jogar, café, chá, ler, estudar, aprender, animes,
+                            filmes e séries
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://drive.google.com/file/d/13Fk2cSWr5fUz1v-4fzDHD47fQwhMn_Yn/view?usp=sharing" target="_blank" class="cv">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/lucas-habakuc-935959217/" target="_blank"
+                                class="li">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/LucasHabakuc1?tab=repositories" target="_blank"
+                                class="gh">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
